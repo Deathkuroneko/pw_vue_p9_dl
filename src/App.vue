@@ -1,10 +1,17 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/consultar-token">Consultar Token</router-link> |
+    <router-link to="/crear-vehiculo">Crear Vehículo</router-link> |
+    <router-link to="/mostrar-tabla-vehiculos">Mostrar Tabla Vehículos</router-link>
   </nav>
-  <router-view/>
+  <router-view />
 </template>
+
+<script>
+export default {
+
+}
+</script>
 
 <style>
 #app {
